@@ -7,8 +7,6 @@ import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Profile from './pages/Profile';
-import Join from './components/Join/Join';
-import Chat from './components/Chat/Chat';
 import Meetings from './pages/Meetings';
 import Videos from './pages/ResourceCenter/Videos';
 import Articles from './pages/ResourceCenter/Articles';
@@ -44,8 +42,6 @@ const App = () => {
             <Route path='/' exact component={Home} />
             <Route path='/profile' component={Profile} />
             <Route path='/meetings' component={Meetings} />
-            <Route path='/join' component={Join} />
-            <Route path='/chat' component={Chat} />
             {/* <Route path="/resource-center" component={ResourceCenter} /> */}
             <Route path='/resource-center/videos' component={Videos} />
             <Route path='/resource-center/articles' component={Articles} />
